@@ -1,0 +1,19 @@
+Package: operators
+Type: Package
+Title: Additional binary operators for the R language
+Version: 0.1-6
+Date: 2010-04-11
+Author: Romain Francois <romain@r-enthusiasts.com>
+Maintainer: ORPHANED
+Suggests: RUnit
+Description: A set of operators for common tasks such as regex
+        manipulation.
+License: GPL-3
+URL: http://romainfrancois.blog.free.fr
+Packaged: 2010-04-11 10:46:50 UTC; romain
+Repository: CRAN
+Date/Publication: 2010-04-11 10:57:54
+X-CRAN-Original-Package: operators
+X-CRAN-Original-Maintainer: Romain Francois <romain@r-enthusiasts.com>
+X-CRAN-Comment: Orphaned on 2012-07-18 as the orginal maintainer,
+        Romain Francois <romain@r-enthusiasts.com>, is unresponsive.
