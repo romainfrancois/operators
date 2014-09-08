@@ -44,7 +44,7 @@
 
 
 `%/~%` <- function( txt, rx ){
-  .strsplit <- base:::strsplit %but% getOption("operators.strsplit")
+  .strsplit <- strsplit %but% getOption("operators.strsplit")
   unlist( .strsplit( txt, rx) )
 }
 

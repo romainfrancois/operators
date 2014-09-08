@@ -2,7 +2,7 @@
 ### pattern matching
 `%~%` <- 
 function(x, rx){
-  .regexpr <- base:::regexpr %but% getOption("operators.regexpr")
+  .regexpr <- regexpr %but% getOption("operators.regexpr")
   .regexpr(rx, x) > 0 
 }
 
