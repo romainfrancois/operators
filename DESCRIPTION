@@ -10,4 +10,5 @@ Suggests: testthat
 Description: A set of binary operators for common tasks such as regex
         manipulation.
 License: MIT + file LICENSE
+URL: https://github.com/romainfrancois/operators
 
