@@ -5,6 +5,7 @@ Version: 0.1-7
 Date: 2014-09-08
 Author: Romain Francois <romain@r-enthusiasts.com>
 Maintainer: Romain Francois <romain@r-enthusiasts.com>
+Depends: R (>= 3.1.0)
 Suggests: testthat
 Description: A set of binary operators for common tasks such as regex
         manipulation.
