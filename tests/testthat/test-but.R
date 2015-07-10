@@ -19,10 +19,7 @@ test_that( "but operators work", {
 	expect_false( formals( grep %but% "p-f" )$fixed )
 	expect_true( formals( grep %but% "p!f" )$fixed )
 	
-	old.op <- options( warn = 2)
-	test <- try( grep %but% "a", silent = TRUE )
-	expect_equal( class(test), "try-error" )
-	options( old.op )
+	expect_warning( grep %but% "a" )
 	
 })
 
