@@ -1,6 +1,6 @@
 Package: operators
 Type: Package
-Title: Additional binary operators for the R language
+Title: Additional Binary Operators
 Version: 0.1-8
 Date: 2015-07-10
 Author: Romain Francois <romain@r-enthusiasts.com>
