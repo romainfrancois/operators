@@ -46,3 +46,5 @@ export( "strrep" )
 S3method( "print", "unixoutput" )
 
 importFrom(utils,"capture.output")
+
+export("%fmt%")
