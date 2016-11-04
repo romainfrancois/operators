@@ -35,8 +35,8 @@
 }
 
 ### send to file
-`%>%`   <- function( object, file) ..redirect(object,file,type="output" , append=FALSE)
-`%>>%`  <- function( object, file) ..redirect(object,file,type="output" , append=TRUE )
+`%file>%`   <- function( object, file) ..redirect(object,file,type="output" , append=FALSE)
+`%file>>%`  <- function( object, file) ..redirect(object,file,type="output" , append=TRUE )
 `%2>>%` <- function( object, file) ..redirect(object,file,type="message", append=TRUE )
 `%2>%`  <- function( object, file) ..redirect(object,file,type="message", append=FALSE)
 `%*>>%` <- function( object, file) ..redirect(object,file,type="both", append=TRUE )  
