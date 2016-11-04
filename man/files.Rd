@@ -1,8 +1,8 @@
 \name{files}
 \alias{\%<<\%}
 \alias{\%<\%}
-\alias{\%>>\%}
-\alias{\%>\%}
+\alias{\%fie>>\%}
+\alias{\%file>\%}
 
 \alias{\%<<2\%}
 \alias{\%<2\%}
@@ -42,11 +42,11 @@
   NULL, used for the side effects.
 }
 \details{
-  \code{\%>\%} sends the \code{object} to the \code{file}. The object is printed to the file 
+  \code{\%file>\%} sends the \code{object} to the \code{file}. The object is printed to the file 
   according to the function specified in the \code{operators.print} option supplied with this package, 
   most likely to be the \code{\link{print}} function. See examples.
   
-  \code{\%>>\%} appends the output to the file.
+  \code{\%file>>\%} appends the output to the file.
   
   \code{\%2>\%} sends the message stream to the file by \code{\link{sink}}ing the 
   \code{message} stream to the file. See \code{\link{sink}} for details. 
