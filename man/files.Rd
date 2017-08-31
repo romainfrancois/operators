@@ -1,7 +1,7 @@
 \name{files}
 \alias{\%<<\%}
 \alias{\%<\%}
-\alias{\%fie>>\%}
+\alias{\%file>>\%}
 \alias{\%file>\%}
 
 \alias{\%<<2\%}
@@ -21,8 +21,8 @@
   from a file.
 }
 \usage{
-  object \%>\% file 
-  object \%>>\% file 
+  object \%file>\% file 
+  object \%file>>\% file 
   
   object \%2>\% file 
   object \%2>>\% file 
@@ -62,7 +62,7 @@
 \seealso{ \link{file} }
 \examples{                        
   \dontrun{
-    rnorm(30) \%>\% "test.txt"
+    rnorm(30) \%file>\% "test.txt"
     stop("problem") \%2>>\% "test.txt"
     x \%<\% "test.txt"
     x
