@@ -2,3 +2,5 @@
 ^\.Rproj\.user$
 ^\.positai$
 ^\.claude$
+^CRAN-SUBMISSION$
+^cran-comments\.md$

@@ -2,7 +2,6 @@ Package: operators
 Type: Package
 Title: Additional Binary Operators
 Version: 0.2.0
-Date: 2015-07-10
 Authors@R: c(
     person("Romain", "Francois", email = "romain@tada.science", role = c("cre", "aut"))
   )
