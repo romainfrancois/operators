@@ -1,10 +1,11 @@
 Package: operators
 Type: Package
 Title: Additional Binary Operators
-Version: 0.1-8
+Version: 0.2.0
 Date: 2015-07-10
-Author: Romain Francois <romain@r-enthusiasts.com>
-Maintainer: Romain Francois <romain@r-enthusiasts.com>
+Authors@R: c(
+    person("Romain", "Francois", email = "romain@tada.science", role = c("cre", "aut"))
+  )
 Depends: R (>= 3.1.0)
 Imports: utils
 Suggests: testthat
@@ -13,3 +14,5 @@ Description: A set of binary operators for common tasks such as regex
 License: MIT + file LICENSE
 URL: https://github.com/romainfrancois/operators
 BugReports: https://github.com/romainfrancois/operators/issues
+RoxygenNote: 7.3.3
+Encoding: UTF-8
